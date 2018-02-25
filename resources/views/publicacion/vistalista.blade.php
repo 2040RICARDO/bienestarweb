@@ -44,7 +44,7 @@
 
                              <th class="sorting" tabindex="0" aria-controls="datatables" rowspan="1" colspan="1" style="width: 124px;color: #fafafa;font-size:1.2em;" aria-label="Date: activate to sort column ascending" align="center">Archivo
                              </th>
-                             <th class="disabled-sorting text-right sorting" tabindex="0" aria-controls="datatables" rowspan="1" colspan="1" style="width: 138px;color: #fafafa;font-size:1.2em;" aria-label="Actions: activate to sort column ascending">Acción</th>
+                             <th class="disabled-sorting text-right sorting" tabindex="0" aria-controls="datatables" rowspan="1" colspan="1" style="width: 138px;color: #fafafa;font-size:1.2em;" aria-label="Actions: activate to sort column ascending">Accion</th>
                          </tr>
                      </thead>
                      <tfoot>
@@ -54,7 +54,7 @@
                          <th rowspan="1" colspan="1">Estado</th>
                          <th rowspan="1" colspan="1">Descripcion</th>
                          <th rowspan="1" colspan="1">Archivo</th>
-                         <th class="text-right" rowspan="1" colspan="1">Acción</th>
+                         <th class="text-right" rowspan="1" colspan="1">Accion</th>
                      </tr>
                  </tfoot>
                  <tbody>
@@ -72,7 +72,7 @@
                      
                      <td tabindex="0" class="sorting_1"><textarea>{{ $publicacion->descripcion }}</textarea></td>
 
-                     <td><a href="{{ $rutaarchivos.$publicacion->ruta }}"  target="_blank"><button class="btn  btn-info btn-xs">Ver</button></a>  
+                     <td><a href="descargar_publicacion/<?=  $publicacion->id;   ?>"><button class="btn  btn-info btn-xs">Ver</button></a>  
                    
                    </td>
                      <td class="td-actions text-right">
@@ -160,7 +160,7 @@ function Mostrarpublicacion(id) {
 
 var Eliminarpublicacion = function(id)
 { 
-    $.alertable.confirm("¿Está seguro de eliminar al comensal? ").then(function() {
+    $.alertable.confirm("¿Está seguro de eliminar la publicación? ").then(function() {
   
       var route = "{{url('eliminarpublicacion')}}/"+id+"";
       var token = $("#token").val();

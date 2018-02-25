@@ -15,7 +15,7 @@
 		                
 		                    	<div class="wizard-header">
 		                        	<h3 class="wizard-title">
-		                        		Formulario de Registro
+		                        		Formulario de Edicion
 		                        	</h3>
 		                    	</div>
 		                    	<div id="msj-error" class="alert alert-danger alert-with-icon" data-notify="container" style="display: none;">
@@ -25,7 +25,7 @@
 									</div>
 								<div class="wizard-navigation">
 									<ul>
-			                            <li><a href="#location" data-toggle="tab">Datos de la tarjeta</a></li>
+			                            <li><a href="#location" data-toggle="tab">Datos de la publicacion</a></li>
 			                        </ul>
 								</div>
  									
@@ -34,9 +34,7 @@
                                
 		                            <div class="tab-pane" id="location">
 		                            	<div class="row">
-		                                	<div class="col-sm-12">
-		                                    	<h4 class="info-text"> Registro de tarjeta</h4>
-		                                	</div>
+		                                	
 		                                	<div class="col-sm-5 col-sm-offset-1">
 
 												<div class="input-group">
@@ -45,7 +43,7 @@
 													</span>
 													<div class="form-group label-floating">
 			                                         <label class="control-label">Fecha de registro</label>
-			                                          <input type="text" class="form-control datepickercc" id="fecha_registro" name="fechapublicacion" value="{{ $publicacion->fechapublicacion }}" disabled="disabled">
+			                                          <input type="text" class="form-control datepickercc" id="fechapublicacion" name="fechapublicacion" value="{{ $publicacion->fechapublicacion }}" >
 			                                        </div>
 												</div>
 		                                	</div>

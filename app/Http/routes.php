@@ -12,13 +12,10 @@
 */
 
 
-Route::get('/', function () {
-    return view('welcome');
-});
 
 
 Route::get('login', 'Auth\AuthController@getLogin');
-Route::post('login', ['as' =>'login', 'uses' => 'Auth\AuthController@postLogin']);
+Route::post('login', ['as' =>'welcome', 'uses' => 'Auth\AuthController@postLogin']);
 Route::get('logout', ['as' => 'logout', 'uses' => 'Auth\AuthController@getLogout']);
  
 // Registration routes...
@@ -45,14 +42,21 @@ route::resource('editarpublicacion','AdminController');
 
 Route::resource('eliminarpublicacion', 'AdminController');
 
-Route::resource('eliminarpublicacion', 'AdminController');
 
 Route::resource('vistapublicacion','AdminController');
 
-Route::get('descargar_publicacion/{id}', 'AdminController@descargar_publicacion');
+Route::get('descargar_publicacion/{id}', 'PdfController@descargar_publicacion');
 
 
 
+
+Route::get('publicacionsuspendido','PublicacionSuspendido@index');
+Route::get('listapublicacionsuspendido','PublicacionSuspendido@lista');
+Route::post('createpublicacionobservado','PublicacionSuspendido@create');
+Route::get('frmeditobservado/{id}','PublicacionSuspendido@edit');
+Route::resource('editarobservado','PublicacionSuspendido');
+Route::resource('eliminarobservado','PublicacionSuspendido');
+Route::post('verificaobservado','PublicacionSuspendido@verificaobservado');
 
 
 

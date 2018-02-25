@@ -17,10 +17,10 @@
                         <div class="collapse" id="collapseExample">
                             <ul class="nav"> 
                                 <li>
-                                    <a href="logout">salir</a>
+                                    <a href="logout">Salir</a>
                                 </li>
                                 <li>
-                                    <a href="javascript:void(0);" onclick="cargarformulario(3);">nuevo usuario</a>
+                                    <a href="javascript:void(0);" onclick="cargarformulario(3);">Nuevo usuario</a>
                                 </li>
                             </ul>
                         </div>
@@ -35,7 +35,7 @@
                     </li>
                     <li>
                         <a data-toggle="collapse" href="#pagesExamples">
-                            <i class="material-icons">face</i>
+                            <i class="material-icons">airplay</i>
                             <p>Publicacion
                                 <b class="caret"></b>
                             </p>
@@ -43,11 +43,18 @@
                         <div class="collapse" id="pagesExamples">
                             <ul class="nav">
                                 <li>
-                                    <a href="javascript:void(0);" onclick="cargarformulario(1);">Nueva publicacion</a>
+                                    <a href="javascript:void(0);" onclick="cargarformulario(1);">Nueva Publicacion</a>
                                 </li>
                                 <li>
-                                    <a href="javascript:void(0);" onclick="cargarformulario(2);">Lista publicaciones</a>
+                                    <a href="javascript:void(0);" onclick="cargarformulario(2);">Lista Publicaciones</a>
                                 </li>
+                                <li>
+                                    <a href="javascript:void(0);" onclick="cargarformulario(4);">Nuevo Registro Observado</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);" onclick="cargarformulario(5);">Lista Observados</a>
+                                </li>
+
                                 
                                 
                             </ul>

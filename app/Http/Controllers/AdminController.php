@@ -20,13 +20,13 @@ class AdminController extends Controller
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
+    
      */
-    
-    public function __construct()
-	{
-		$this->middleware('auth');
-	}
-    
+
+
+ 
+ 
+
     public function index()
     {
         return view('admin');
@@ -37,6 +37,13 @@ class AdminController extends Controller
         $usuario=\Auth::user();
         return view('publicacion\vistaformulario',compact('usuario'));
     }
+
+   
+
+
+
+
+
 
     public function vistalista(){
 
@@ -69,8 +76,8 @@ class AdminController extends Controller
         $validacion = Validator::make($input, $reglas);
         if($validacion->fails())
         {
-            Session::flash('save1','La publicacion o fu creada');
-            return back();
+            Session::flash('save1','La publicacion no fue registrada revise el tipo de archivo');
+            return redirect('admin');
         }
         else{
           $publicacion = new Publicacion;
@@ -84,12 +91,10 @@ class AdminController extends Controller
           $r1 = Storage::disk('archivos')->put($ruta, \File::get($archivo));
           $publicacion->ruta=$ruta;
           $resul = $publicacion->save(); 
-          Session::flash('save','La publicacion fue creado satisfactoriamente');
-          return back();
+          Session::flash('save','La publicación fue registrada satisfactoriamente');
+          return redirect('admin');
         }
 
-
-        
     }
 
 
@@ -118,9 +123,13 @@ class AdminController extends Controller
 
  public function descargar_publicacion($id){
         
-         $publicacion=Publicacion::find($id);
-         $rutaarchivo= "../storage/archivos/".$publicacion->ruta;
-         return response()->download($rutaarchivo);
+         //$publicacion=Publicacion::find($id);
+         //$rutaarchivo= "../storage/archivos/".$publicacion->ruta;
+         //return response()->download($rutaarchivo);
+
+
+    
+     
 
        }
     /**

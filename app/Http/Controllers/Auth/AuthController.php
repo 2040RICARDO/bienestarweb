@@ -88,14 +88,15 @@ public function postLogin(Request $request)
     }
 
 
+
 //login
 
  //registro   
 
 
-        public function getRegister()
+        protected function getRegister()
     {
-        return view("auth\registro");
+        return view("auth.registro");
     }
 
 
@@ -140,5 +141,6 @@ protected function getLogout()
 
         return redirect('/');
     }
+
 
 }

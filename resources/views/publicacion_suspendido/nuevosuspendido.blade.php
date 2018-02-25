@@ -1,3 +1,4 @@
+ 
 
 	    <div class="container">
 	        <div class="row">
@@ -8,10 +9,10 @@
 		
 		                 
 
-		                 <form action="register" method="post">
+		                 <form class="form-horizontal" enctype="multipart/form-data" action="createpublicacionobservado" method="post">
 		                
 		                <input type="hidden" name="_token" id="token" value="<?php echo csrf_token(); ?>">
-		            
+		               
 		                    	<div class="wizard-header">
 		                        	<h3 class="wizard-title">
 		                        		Formulario de Registro
@@ -24,7 +25,7 @@
 									</div>
 								<div class="wizard-navigation">
 									<ul>
-			                            <li><a href="#location" data-toggle="tab">Datos del usuario</a></li>
+			                            <li><a href="#location" data-toggle="tab">Datos de comensal observado</a></li>
 			                        </ul>
 								</div>
  									
@@ -38,11 +39,11 @@
 
 												<div class="input-group">
 													<span class="input-group-addon">
-														<i class="material-icons">face</i>
+														<i class="material-icons">today</i>
 													</span>
 													<div class="form-group label-floating">
 			                                         <label class="control-label">Nombre y apellido</label>
-			                                          <input type="text" class="form-control" id="name" name="name"  required>
+			                                          <input type="text" class="form-control" id="nombre" name="nombre" value="" minlength="3" maxlength="40" required pattern="[A-Za-z]+" >
 			                                        </div>
 												</div>
 		                                	</div>
@@ -50,11 +51,11 @@
 
 		                                	<div class="input-group">
 													<span class="input-group-addon">
-														<i class="material-icons">face</i>
+														<i class="material-icons">today</i>
 													</span>
 													<div class="form-group label-floating">
-			                                         <label class="control-label">Nombre de usuario</label>
-			                                          <input type="text" class="form-control" id="username" name="username"  required>
+			                                         <label class="control-label">C.I</label>
+			                                          <input type="text" class="form-control" id="ci" name="ci" value=""  minlength="6" maxlength="10" required pattern="[0-9]+">
 			                                        </div>
 												</div>
 		                                	</div>
@@ -62,35 +63,25 @@
 
 												<div class="input-group">
 													<span class="input-group-addon">
-														<i class="material-icons">mail</i>
+														<i class="material-icons">today</i>
 													</span>
 													<div class="form-group label-floating">
-			                                         <label class="control-label">Correo electronico</label>
-			                                          <input type="email" class="form-control" id="email" name="email"  required>
+			                                         <label class="control-label">Mes de suspencion</label>
+			                                          <input type="text" class="form-control datepickercc" id="mes" name="mes" value="" minlength="10" maxlength="10" required>
 			                                        </div>
 												</div>
 		                                	</div>
-		                                	<div class="col-sm-5 ">
+		                                	
+											<br><br><br><br><br><br><br><br><br><br>
 											
-											<div class="input-group">
-													<span class="input-group-addon">
-														<i class="material-icons">https</i>
-													</span>
-													<div class="form-group label-floating">
-			                                         <label class="control-label">Contraseña</label>
-			                                          <input type="password" class="form-control" id="password" name="password"  required>
-			                                        </div>
-												</div>		                                	</div>
 
 
 
-
-		                    
 		                            	</div>
 		                            </div>
 		                        <div class="wizard-footer">
 	                            	<div class="pull-right">
-	                                     <a type='button' class='btn  btn-fill btn btn-danger btn-wd' href="javascript:void(0);" onclick="cargarformulario(2);">Cancelar</a>
+	                                     <a type='button' class='btn  btn-fill btn btn-danger btn-wd' href="javascript:void(0);" onclick="cargarformulario(5);">Cancelar</a>
 	                                    <button type="submit" class="btn btn-finish btn-fill btn-primary btn-wd" style="background-color: #263238;">Registrar</button>
 	                                </div>
 	                               
@@ -109,14 +100,13 @@
     <script src="assets/js/jquery.validate.min.js"></script>
 	    
 	  
-
-
-
-
-
-
-
-
-
-
-
+	
+	    <script type="text/javascript">
+	    	$('.datepickercc').datepicker({
+	    		format: 'yyyy/mm/dd',
+	    		language: "es",
+	    		color: 'red',
+	    		viewMode:'months',
+	    		minViewMode: 'months',
+	    	}) .on('changeDate', function(ev){ $('.datepickercc').datepicker('hide'); });
+	    </script>

@@ -4,12 +4,17 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="comedor unsxx,bienestar social,unsxx,universidad nacional siglo xx, Obtener el desarrollo personal social y material de la comunidad Universitaria que integra la Universidad Nacional “Siglo XX”">
+    <meta name="keywords" content="comedor unsxx,bienestar social,unsxx,universidad nacional siglo xx, Obtener el desarrollo personal social y material de la comunidad Universitaria que integra la Universidad Nacional “Siglo XX”">
+    <meta name="author" content="comedor unsxx,bienestar social,unsxx,universidad nacional siglo xx, Obtener el desarrollo personal social y material de la comunidad Universitaria que integra la Universidad Nacional “Siglo XX”">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="twiter:description" content="comedor unsxx,bienestar social,unsxx,universidad nacional siglo xx, Obtener el desarrollo personal social y material de la comunidad Universitaria que integra la Universidad Nacional “Siglo XX”">
+    <meta name="twiter:title" content="comedor unsxx,bienestar social,unsxx,universidad nacional siglo xx">
+
 
     <title>Bienestar Social</title>
 
-    <!-- css -->
+
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
   <link href="css/nivo-lightbox.css" rel="stylesheet" />
@@ -27,19 +32,16 @@
 
   <section id="intro" class="home-slide text-light">
 
-    <!-- Carousel -->
       <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
       <ol class="carousel-indicators">
           <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
           <li data-target="#carousel-example-generic" data-slide-to="1"></li>
           <li data-target="#carousel-example-generic" data-slide-to="2"></li>
       </ol>
-      <!-- Wrapper for slides -->
+
       <div class="carousel-inner">
           <div class="item active">
             <img src="img/4.jpg" alt="First slide">
-                    <!-- Static Header -->
                     <div class="header-text hidden-xs">
                         <div class="col-md-12 text-center">
                             <h2>
@@ -47,17 +49,19 @@
                             </h2>
                             <br>
                             <h3>
-                              <span>Verifique si se encuantra obserbado , para la compra de ficha</span>
+                            <span>Verifique las publicaciones realizadas por el administrador.</span>
+                              
                             </h3>
                             <br>
                             <div class="">
-                                 <a class="btn btn-theme btn-sm btn-min-block" href="#publicar" data-toggle="modal">Publicar</a><a class="btn btn-theme btn-sm btn-min-block" href="#works">Verificar</a></div>
+                                 <a class="btn btn-theme btn-sm btn-min-block" href="#publicar" data-toggle="modal">Publicar</a><a class="btn btn-theme btn-sm btn-min-block" href="#works">Publicaciones</a></div>
+
                         </div>
-                    </div><!-- /header-text -->
+                    </div>
           </div>
           <div class="item">
             <img src="img/4.jpg" alt="Second slide">
-            <!-- Static Header -->
+          
                     <div class="header-text hidden-xs">
                         <div class="col-md-12 text-center">
                             <h2>
@@ -65,17 +69,18 @@
                             </h2>
                             <br>
                             <h3>
-                              <span>Verifique si se encuantra obserbado , para la compra de ficha</span>
+                              <span>Verifique las publicaciones realizadas por el administrador.</span>
+   
                             </h3>
                             <br>
                             <div class="">
-                                 <a class="btn btn-theme btn-sm btn-min-block" href="#publicar" data-toggle="modal">Publicar</a><a class="btn btn-theme btn-sm btn-min-block" href="#works">Verificar</a></div>
+                                 <a class="btn btn-theme btn-sm btn-min-block" href="#publicar" data-toggle="modal">Publicar</a><a class="btn btn-theme btn-sm btn-min-block" href="#works">Publicaciones</a></div>
                         </div>
-                    </div><!-- /header-text -->
+                    </div>
           </div>
           <div class="item">
             <img src="img/4.jpg" alt="Third slide">
-            <!-- Static Header -->
+  
                     <div class="header-text hidden-xs">
                         <div class="col-md-12 text-center">
                             <h2>
@@ -83,48 +88,27 @@
                             </h2>
                             <br>
                             <h3>
-                              <span>Verifique si se encuantra obserbado , para la compra de ficha</span>
+                            <span>Verifique las publicaciones realizadas por el administrador.</span>
+                              
                             </h3>
                             <br>
                             <div class="">
-                                 <a class="btn btn-theme btn-sm btn-min-block" href="#publicar" data-toggle="modal">Publicar</a><a class="btn btn-theme btn-sm btn-min-block" href="#works">Verificar</a></div>
+                                 <a class="btn btn-theme btn-sm btn-min-block" href="#publicar" data-toggle="modal">Publicar</a><a class="btn btn-theme btn-sm btn-min-block" href="#works">Publicaciones</a></div>
                         </div>
-                    </div><!-- /header-text -->
+                    </div>
           </div>
       </div>
-      <!-- Controls -->
+
       <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
           <span class="glyphicon glyphicon-chevron-left"></span>
       </a>
       <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
           <span class="glyphicon glyphicon-chevron-right"></span>
       </a>
-    </div><!-- /carousel -->
+    </div>
 
   </section>
-  <!-- /Section: intro -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!-- Navigation -->
     <div id="navigation">
         <nav class="navbar navbar-custom" role="navigation">
                               <div class="container">
@@ -138,38 +122,27 @@
 
                                           <div class="col-md-10">
 
-                                                      <!-- Brand and toggle get grouped for better mobile display -->
                                           <div class="navbar-header">
                                                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
                                                 <i class="fa fa-bars"></i>
                                                 </button>
                                           </div>
-                                                      <!-- Collect the nav links, forms, and other content for toggling -->
+                             
                                                       <div class="collapse navbar-collapse" id="menu">
                                                             <ul class="nav navbar-nav navbar-right">
                                                                   <li class="active"><a href="#intro">Home</a></li>
                                                                   <li><a href="#about">Mision Vision</a></li>
                                    <li><a href="#publicar" data-toggle="modal">Publicar</a></li>
-                                                                  <li><a href="#works">Verificar</a></li>
+                                                                  <li><a href="#works">Publicaciones</a></li>
 
                                                                   <li><a href="#contact">Contactos</a></li>
                                                             </ul>
                                                       </div>
-                                                      <!-- /.Navbar-collapse -->
-
                                           </div>
                                     </div>
                               </div>
-                              <!-- /.container -->
                         </nav>
     </div>
-    <!-- /Navigation -->
-
-
-
-
-
-
 
   <div class="modal fade" id="publicar" >
    <div class="modal-dialog" >
@@ -205,21 +178,122 @@
     </div>
     </div>
   </div>
-
-
-
-
-
-
-
-
-
-
-
-
-  <!-- Section: about -->
     <section id="about" class="home-section color-dark bg-white">
     <div class="container marginbot-50">
+
+
+<div class="row">
+    <div class="col-md-8 col-md-offset-2">
+      <div class="estadoo" ">
+
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<form id="f_asistencia_eventual"  method="post" enctype="multipart/form-data" action= "/verificaobservado"  class="form-inline frmeventual">
+     <input type="hidden" name="_token" id="token" value="<?php echo csrf_token(); ?>">
+
+
+<div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="wow flipInY" data-wow-offset="0" data-wow-delay="0.4s">
+          <div class="section-heading text-center">
+          <h2 class="h-bold">Verificar</h2>
+          <div class="divider-header"></div>
+          <p>Ingrese el numero de Cedula de Identidad para verificar si se encuentra observado para la compra de ficha.</p>
+<input type="number" name="numeroci" id="observados" class="form-control" placeholder="C.I." maxlength="10" minlength="3">
+          <button type="submit" class="btn btn-primary">Enviar</button>
+          </div>
+          </div>
+        </div>
+      </div>
+
+    </form> <br>
+    
+      
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
           <div class="wow flipInY" data-wow-offset="0" data-wow-delay="0.4s">
@@ -238,7 +312,7 @@
           <div class="section-heading text-center">
           <h2 class="h-bold">Vision</h2>
           <div class="divider-header"></div>
-          <p>Brindar a la comunidad universitaria un conjunto de servicios que complementan la formación académica.</p>
+          <p>Brindar a la comunidad universitaria un conjunto de servicios que complementan la formacion academica.</p>
           </div>
           </div>
         </div>
@@ -259,7 +333,7 @@
            </div>
             <div class="col-md-6">
             <h2 class="h-bold">Objetivo de la institucion</h2>
-            <p>Administrar en forma eficiente y adecuada la elaboración y manejo de la información.  </p>
+            <p>Administrar en forma eficiente y adecuada la elaboracion y manejo de la informacion.  </p>
             </div>
         </div>
     </div>
@@ -267,22 +341,16 @@
 
 
   </section>
-  <!-- /Section: about -->
 
-
-  
-
-
-  <!-- Section: works -->
     <section id="works" class="home-section color-dark text-center bg-white">
     <div class="container marginbot-50">
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
           <div class="wow flipInY" data-wow-offset="0" data-wow-delay="0.4s">
           <div class="section-heading text-center">
-          <h2 class="h-bold">Verificacion</h2>
+          <h2 class="h-bold">Publicaciones</h2>
           <div class="divider-header"></div>
-          <p>Lista de publicaciones de los comensales observados</p>
+          <p>Verifique las publicaciones realizadas por el administrador.</p>
           </div>
           </div>
         </div>
@@ -300,16 +368,15 @@
                 @foreach($publicacion as $publicar)
 
                               <div class="panel panel-success">
-                                <div class="panel-heading ">fecha de publicacion : {{ $publicar->fechapublicacion }}</div>
+                                <div class="panel-heading "> <b>fecha de publicación :</b> {{ $publicar->fechapublicacion }}</div>
                                 <div class="panel-body">
-                                  <div class="alert alert-danger alert-dismissible">
-                                    <h5>Descripcion</h5>
+                                  <div class="alert alert-info alert-dismissible">
+                                    <h5><b>Descripcion</b></h5>
                                     {{ $publicar->descripcion }}
                                   </div>
                                 </div>
-                                <div class="panel-footer">
-                                  <a href="<?= $rutaarchivos.$publicar->ruta; ?>"  target="_blank" class="btn btn-primary btn-xs" >Ver</a>     <a href="descargar_publicacion/<?=  $publicar->id;   ?>" class="btn btn-success btn-xs">Descargar</a>
-                                </div>
+                                <a href="descargar_publicacion/<?=  $publicar->id;?>" class="btn btn-primary ">Ver</a> <br><br>
+                                
                               </div>
 
                  @endforeach
@@ -321,9 +388,7 @@
             </div>
 
   </section>
-  <!-- /Section: works -->
 
-  <!-- Section: contact -->
     <section id="contact" class="home-section nopadd-bot color-dark bg-gray text-center">
     <div class="container marginbot-50">
       <div class="row">
@@ -332,7 +397,7 @@
           <div class="section-heading text-center">
           <h2 class="h-bold">Contactos y ubicacion</h2>
           <div class="divider-header"></div>
-          <p>Se puede observar en el mapa la ubicacion de la Direccion de BienestarSocial y Comedor Universitario</p>
+          <p>Se puede observar en el mapa la ubicacion de la Direccion de Bienestar Social y Comedor Universitario</p>
           </div>
           </div>
         </div>
@@ -350,7 +415,7 @@
         <div class="col-sm-6">
          <div class="panel panel-info">
            <div class="panel-heading">
-             <h6>Direccion Bienestar Social</h6>
+             <h6>Bienestar Social</h6>
            </div>
            <div class="panel-body">
              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d946.3383873016986!2d-66.5858966684272!3d-18.422249870609683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93fcdfd89ce0d41f%3A0xa0b87ccc25096dba!2sParaninfo+Universidad+Siglo+XX!5e0!3m2!1ses!2sbo!4v1514679566463" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
@@ -378,8 +443,6 @@
 
     </div>
   </section>
-  <!-- /Section: contact -->
-
 
   <footer>
     <div class="container">
@@ -389,21 +452,13 @@
           <div class="text-center">
             <a href="#intro" class="totop"><i class="fa fa-angle-up fa-3x"></i></a>
 
-            <p>Direccion Bienestar social: Paraninfo Universitario Avenida Campero<br />
+            <p>Direccion Bienestar social: Paraninfo Universitario / Avenida Campero<br />
                Comedor universitario: Avenida Ballivian s/n</p>
-
-                        <!--
-                            All links in the footer should remain intact.
-                            Licenseing information is available at: http://bootstraptaste.com/license/
-                            You can buy this theme without footer links online at: http://bootstraptaste.com/buy/?theme=Shuffle
-                        -->
           </div>
         </div>
       </div>
     </div>
   </footer>
-
-    <!-- Core JavaScript Files -->
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
   <script src="js/jquery.sticky.js"></script>
@@ -420,6 +475,49 @@
 
 
 
+
+
+
+
+
+
+<script type="text/javascript">
+  $(document).on("submit",".frmeventual",function(e){
+
+    e.preventDefault();
+        $('html, body').animate({scrollTop: '0px'}, 200);
+    
+        var formu=new FormData($(".frmeventual")[0]);
+        
+        var quien=$(this).attr("id");
+        if(quien=="f_asistencia_eventual"){ var varurl="verificaobservado";var token = $("#token").val(); }
+        $.ajax({
+                    url : varurl,
+                    headers:{'X-CSRF-TOKEN':token},
+                    type: "POST",
+                    datatype:'json',
+                    data : formu,
+                    contentType: false,
+                    processData: false,
+               success: function(data)
+                    {
+                      if(data == 1){
+                        $('.estadoo').html('<div class="alert alert-danger" role="alert" ><button class="close" type="button" data-dismiss="alert" aria-hidden="true">x</button><center><strong>Observado</strong></center></div>');
+                      }else if(data == 2){
+                        $('.estadoo').html('<div class="alert alert-info" role="alert" ><button class="close" type="button" data-dismiss="alert" aria-hidden="true">x</button><center><strong>No se encuentra observado</strong></center></div>');
+                      }else if(data == 3){
+                        $('.estadoo').html('<div class="alert alert-success" role="alert" ><button class="close" type="button" data-dismiss="alert" aria-hidden="true">x</button><center><strong>No existe registro del C.I</strong></center></div>');
+                      }
+
+                     
+                      
+                      $('#observados').val(""); 
+                    },
+              });
+
+  });
+
+</script>
 
 
 

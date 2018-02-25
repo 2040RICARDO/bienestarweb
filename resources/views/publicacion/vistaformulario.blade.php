@@ -25,7 +25,7 @@
 									</div>
 								<div class="wizard-navigation">
 									<ul>
-			                            <li><a href="#location" data-toggle="tab">Datos de la tarjeta</a></li>
+			                            <li><a href="#location" data-toggle="tab">Datos de la publicacion</a></li>
 			                        </ul>
 								</div>
  									
@@ -34,9 +34,7 @@
                                
 		                            <div class="tab-pane" id="location">
 		                            	<div class="row">
-		                                	<div class="col-sm-12">
-		                                    	<h4 class="info-text"> Registro de tarjeta</h4>
-		                                	</div>
+		                                	
 		                                	<div class="col-sm-5 col-sm-offset-1">
 
 												<div class="input-group">
@@ -80,7 +78,7 @@
 		                                	<div class="col-sm-5 ">
 											<br><br><br><br><br><br>
 											<div class=" col-xs-12" style="background-color:rgb(229, 245, 253);" >
-				                              <label for="apellido">Archivo a subir (Formato: PDF) </label>
+				                              <label for="apellido">Subir archivo (Formato: PDF) </label>
 				                              <input type="file"  id="file" name="file" required>
 				                            </div>
 		                                	
